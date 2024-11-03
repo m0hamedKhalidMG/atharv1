@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titr', sans-serif;
+  background-color: #F1EDE1;
+  direction: rtl;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #F1EDE1;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #986C4A;
+}
+
+footer {
+  background-color: #3B1112;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+h2 {
+  color: #986C4A;
+  font-family: '29LT Riwaya', sans-serif;
+}
+
+@font-face {
+  font-family: 'Titr';
+  src: url('./fonts/Titr.woff2') format('woff2'),
+    url('./fonts/Titr.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '29LT Riwaya';
+  src: url('./fonts/29LTRiwaya.woff2') format('woff2'),
+    url('./fonts/29LTRiwaya.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
