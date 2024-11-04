@@ -153,6 +153,9 @@ const Header = () => {
     } else if (currentPath === '/login') {
       setActiveButton('login');
     }
+    else if (currentPath === '/admin') {
+      setActiveButton('admin');
+    }
     else if (currentPath === '/contact') {
       setActiveButton('contact');
     }
@@ -223,8 +226,9 @@ const Header = () => {
           >تواصل معنا {activeButton === 'contact' && '▼'}</Link>
         {/* Render Admin tab if user role is admin */}
         {userRole === 'Admin' && (
-          <Link to="/admin" className={activeButton === 'admin' ? 'active' : ''}>
-            إدارة
+          <Link to="/admin"     onClick={() => handleClick('admin')}  className={activeButton === 'admin'  ? 'active' : ''}>
+            إدارة {activeButton === 'admin' && '▼'}
+
           </Link>
         )}
         {isLoggedIn ? (
