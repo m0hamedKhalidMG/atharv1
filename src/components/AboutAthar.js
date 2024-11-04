@@ -17,7 +17,7 @@ const AboutContainer = styled.div`
 
 const TitleBox = styled.div`
   background-color: #3b1112;
-  color: #F1C382;
+  color: #F3DFB8;
   padding: 30px;
   border-radius: 8px;
   text-align: right;
@@ -26,7 +26,7 @@ const TitleBox = styled.div`
 `;
 
 const TextContent = styled.p`
-  color: #F1C382;
+  color: #F3DFB8;
   font-size: 18px;
   line-height: 1.8;
   margin-top: 20px;
