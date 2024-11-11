@@ -131,10 +131,9 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            موقع وزارة الثقافة
-          </a>
+موقع هيئه التراث          </a>
           <a
-            href="https://ksaforunesco.org/ar/ksas-world-heritage-list/"
+            href="https://search.app/KjGkoAQLehNZxokD7"
             target="_blank"
             rel="noopener noreferrer"
           >
