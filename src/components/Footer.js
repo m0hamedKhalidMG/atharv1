@@ -131,7 +131,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-موقع هيئه التراث          </a>
+موقع هيئة التراث          </a>
           <a
             href="https://search.app/KjGkoAQLehNZxokD7"
             target="_blank"
